@@ -8,7 +8,7 @@ const connection = process.env.CONNECTION_URL;
 import userRoutes from "./routes/UserRoutes.js";
 import cors from "cors";
 
-app.get("/mes", (req, res) => {
+app.get("/", (req, res) => {
   res.json("welcome");
 });
 
